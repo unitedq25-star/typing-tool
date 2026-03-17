@@ -1,0 +1,65 @@
+/* --- Main Layout --- */
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #550606cc;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+    background: #0d9bbece;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* --- Typing Area --- */
+.typing-area {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 3px solid #66541d;
+    border-radius: 20px;
+    margin-top: 20px;
+    overflow-y: auto; /* Agar text bada ho to scroll bar aayega */
+    background: white;
+}
+
+#userInput, #ghostText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: 'Courier New', monospace; /* Monospace font alignment ke liye best hai */
+    box-sizing: border-box; /* Padding ko width ke andar rakhega */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+#ghostText {
+    color: #474444b9;
+    pointer-events: none; /* User isse click nahi kar sakega */
+    z-index: 1; /* Niche rahega */
+}
+
+#userInput {
+    color: #000000f8;
+    z-index: 4; /* Upar rahega */
+    resize: none;
+    caret-color: black;
+}
+

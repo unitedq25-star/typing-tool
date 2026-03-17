@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Practice Tool</title>
+    <link rel="stylesheet" href="Trace.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Typing Practice Tool</h2>
+        
+        <div>
+            <input type="text" id="topicInput" placeholder="Enter Topic (e.g. Science)">
+            <button onclick="startPractice()">Generate Essay</button>
+        </div>
+
+        <div class="typing-area">
+            <div id="ghostText">start typing here</div>
+           <textarea id="userInput" spellcheck="false"></textarea>
+
+        </div>
+
+        <button onclick="clearTyping()" style="background-color: #831c1c; color: white; margin-top: 10px;">Clear My Typing</button>
+    </div>
+
+    <script src="Trace.js"></script>
+</body>
+</html>
+
+
+
+
+
+
