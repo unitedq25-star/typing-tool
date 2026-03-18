@@ -17,6 +17,7 @@ A distraction-free "Ghost Text" overlay that lets you focus purely on muscle mem
 
 High-Speed Inference:
 Powered by Llama 3 for near-instant text generation.
+i experienced groq and its amazing.
 
  Tech Stack :
 Frontend: HTML5, CSS3, JavaScript (ES6+)
