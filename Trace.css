@@ -27,7 +27,7 @@ body {
     border: 3px solid #66541d;
     border-radius: 20px;
     margin-top: 20px;
-    overflow-y: auto; /* Agar text bada ho to scroll bar aayega */
+    overflow-y: auto; /* if the text is long it scrolls down */
     background: white;
 }
 
