@@ -1,4 +1,4 @@
-Trace_Mind: AI-Powered Typing Tracer     LINK ---->  https://github.com/unitedq25-star/typing-tool
+Trace_Mind: AI-Powered Typing Tracer     LINK ---->  
  Welcome to Trace_Mind, a typing practice tool designed to sharpen your speed while you learn new concepts. Unlike traditional typing trainers,
 Trace_Mind uses AI to generate real-time, precise definitions for any topic you choose.
 
