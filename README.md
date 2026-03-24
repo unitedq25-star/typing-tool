@@ -25,4 +25,4 @@ Frontend: HTML5, CSS3, JavaScript (ES6+)
 API: Groq Cloud API 
 
 Methods: Async/Await, DOM Manipulation, and Real-time Event Listeners.
-https://github.com/unitedq25-star/typing-tool.git  you can click the link to see the tool 
+https://unitedq25-star.github.io/typing-tool/ you can click the link to see the tool 
