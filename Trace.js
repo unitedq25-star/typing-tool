@@ -10,7 +10,7 @@ async function startPractice() {
     }
 
     // Processing status
-    ghostText.innerText = "Generating essay, please wait...";
+    ghostText.innerText = "Generating paragraph, please wait...";
     userInput.value = "";
 
     const apiKey =  process.env.API_KEY; // api key 
